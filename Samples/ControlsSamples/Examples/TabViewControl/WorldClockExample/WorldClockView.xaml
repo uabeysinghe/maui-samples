@@ -77,7 +77,7 @@
     <ContentView.Content>
         <telerik:RadTabView BackgroundColor="White" 
                             HeaderStyle="{StaticResource TabViewHeaderStyle}"
-                            HeaderItemStyle="{StaticResource TabViewHeaderItemStyle}">
+                            HeaderItemStyle="{StaticResource TabViewHeaderItemStyle}" FlowDirection="RightToLeft">
             <telerik:TabViewItem HeaderText="Sofia">
                     <telerik:TabViewItem.Content>
                         <VerticalStackLayout x:Name="sofia">
