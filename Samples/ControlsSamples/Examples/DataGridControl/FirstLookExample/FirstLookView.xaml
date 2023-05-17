@@ -31,7 +31,7 @@
                              GridLinesThickness="1"
                              GridLinesVisibility="Both"
                              GridLinesColor="#DFDFDF"
-                             GroupHeaderStyle="{StaticResource groupHeaderStyle}">
+                             GroupHeaderStyle="{StaticResource groupHeaderStyle}" FlowDirection="RightToLeft">
             <telerik:RadDataGrid.GroupDescriptors>
               <telerik:PropertyGroupDescriptor PropertyName="CountryName" />
             </telerik:RadDataGrid.GroupDescriptors>
